@@ -89,10 +89,16 @@ img{
     font-size: 10px;    
 }
 
-.footer{
+.footer{ 
     display: flex;
-    padding: 20px;
-    
+    justify-content: space-between;
 }
+
+.footer ul li{ 
+    display: inline;
+    list-style: none;
+    padding: 20px;
+}
+
 
 
