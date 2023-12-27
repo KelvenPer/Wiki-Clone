@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pedido de Pizza</h1>
+
+    <form action="test.js" method="GET">
+
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        
+            Nome: <input type="text" name="name" placeholder="Digite seu nome"> 
+            <br>
+            <br>
+            E-mail: <input type="email" name="email" placeholder="Digite seu E-mail">
+    </fieldset> 
+
+    <fieldset>
+        <legend>Escolha o Sabor</legend>
+        Sabores:
+        <select name="" id=""> 
+            <option value="">Marguerita</option>
+            <option value="">Portuguesa</option>
+        </select>    
+    </fieldset>
+
+    <fieldset>
+        <legend>Acrescimos</legend>
+        Queijo duplo <input type="checkbox">
+        Bacon <input type="checkbox">
+    </fieldset>
+    <fieldset>
+        <legend>Tamanho</legend>
+        G <input type="radio" name="tamanho" value="g" checked>
+        M <input type="radio" name="tamanho" value="m">
+        P <input type="radio" name="tamanho" value="p">
+    </fieldset>
+
+    <fieldset>
+        <legend>Opições</legend>
+        Data da Entrega:
+        <input type="date" name="dataDaEntrega"> <br> 
+        <br>
+        Deixe seu comentario: <br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Deixe seu comentario sobre o atendimento"></textarea>
+    </fieldset>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+</form>
+</body>
+</html>

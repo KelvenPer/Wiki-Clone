@@ -26,13 +26,9 @@ img{
     
 }
 
-.logo2{
-    cursor: pointer;
-}
-
 .menu-inicial {
-    padding: 20px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
     
 }
 
@@ -57,7 +53,7 @@ img{
 .grid-conteiner div {
     text-align: center;
     padding: 20px 0;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .title h3{
@@ -71,4 +67,32 @@ img{
 .menu{
     text-align: left;
 }
+
+.right {
+    text-align: center;
+    font-size: 10px;
+}
+
+.right h4, h5{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.right p{
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+    font-size: 10px;    
+}
+
+.footer{
+    display: flex;
+    padding: 20px;
+    
+}
+
 
